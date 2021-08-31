@@ -24,7 +24,6 @@ class NetworkManager: ObservableObject {
                             }
                         } catch {
                             print(error)
-                            print("TUKA ULAVA")
                         }
                     }
                 }

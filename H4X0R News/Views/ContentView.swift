@@ -14,11 +14,11 @@ struct ContentView: View {
             List(networkManager.posts) { post in
                 NavigationLink(
                     destination: DetailView(url: post.url)) {
-                        HStack {
-                            Text(String(post.points))
-                            Text(post.title)
-                        }
+                    HStack {
+                        Text(String(post.points))
+                        Text(post.title)
                     }
+                }
             }
             .navigationBarTitle("H4X0R NEWS")
         }
